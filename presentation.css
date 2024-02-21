@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2e82f1;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#presentationtextspace {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  width: 600px;
+}
+
+#buttonspace {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 35px;
+  width: 380px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 15px;
+  font-weight: lighter;
+  box-shadow: gray 5px 5px 10px;
+}
+
+#buttonspace:hover {
+  color: #2e82f1;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.4s ease-in-out;
+}
+
+#buttonspace:not(:hover) {
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+  height: 693px;
+  background-color: white;
+}
+
+.mainboxs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  height: 500px;
+}
+
+.littleboxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 683px;
+  height: 184px;
+}
+
+.littleboxspaceselements {
+  display: flex;
+  width: 28%;
+  height: 100%;
+}
+
+.littleboxspaceselementstext {
+  margin-left: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#upleftlittleboxphotospace {
+  background-image: url(assets/handslogo.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+#downleftlittleboxphotospace {
+  background-image: url(assets/orgalogo.png);
+  background-position: center;
+  background-size: 99.8%;
+}
+
+#uprightlittleboxphotospace {
+  background-image: url(assets/locklogo.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+#downrightlitleboxphotospace {
+  background-image: url(assets/lightlogo.png);
+  background-position: center;
+  background-size: 100%;
+}
