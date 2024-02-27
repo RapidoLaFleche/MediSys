@@ -62,6 +62,7 @@ header {
   font-weight: bold;
   color: white;
 }
+
 main {
   display: flex;
   justify-content: space-around;
@@ -81,7 +82,6 @@ main {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  border: 2px solid white;
   width: 90%;
   height: 100%;
 }
@@ -91,4 +91,57 @@ main {
   background-position: center;
   background-size: cover;
   background-attachment: local;
+}
+
+.littlecolumnboxs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+#upleftlittlecolumnboxsphotospace {
+  display: flex;
+  width: 40%;
+  height: 63%;
+  background-image: url(assets/downloadlogo.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+#downleftlittlecolumnboxsphotospace {
+  display: flex;
+  width: 40%;
+  height: 63%;
+  background-image: url(assets/installationlogo.png);
+  background-size: 101%;
+  background-position: center;
+}
+
+#uprightlittlecolumnboxsphotospace {
+  display: flex;
+  width: 40%;
+  height: 63%;
+  background-image: url(assets/configutationlogo.png);
+  background-size: 101%;
+  background-position: center;
+}
+
+#downrightlittlecolumnboxsphotospace {
+  display: flex;
+  width: 40%;
+  height: 63%;
+  background-image: url(assets/activationlogo.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.littlecolumnboxstextspace {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  align-items: center;
+  text-align: center;
 }
