@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+iframe {
+    border: none;
+    overflow-x: hidden;
+}
