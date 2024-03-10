@@ -1,6 +1,9 @@
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -16,11 +19,12 @@ header {
   font-size: 40px;
   font-weight: bold;
   color: white;
-  width: 600px;
+  width: 40%;
 }
 
 #buttonspace {
   display: flex;
+  margin-top: 20px;
   justify-content: center;
   height: 60px;
   align-items: center;
@@ -39,13 +43,14 @@ header {
 
 main {
   display: flex;
+  margin-top: 50px;
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
   position: relative;
   overflow: hidden;
-  margin-top: 25px;
-  height: 693px;
+  width: 85%;
+  height: 600px;
 }
 
 .mainboxs {
@@ -53,7 +58,6 @@ main {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  width: 700px;
   height: 500px;
 }
 
@@ -112,11 +116,9 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 125%;
+  height: 100%;
   object-fit: cover;
-  /* Pour couvrir toute la surface de la div */
   z-index: -1;
-  /* Pour placer la vidéo derrière le contenu de la div */
 }
 
 #mainboxbackground-video {
@@ -124,11 +126,9 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  max-height: 100%;
   object-fit: cover;
-  /* Pour couvrir toute la surface de la div */
   z-index: -1;
-  /* Pour placer la vidéo derrière le contenu de la div */
   border-radius: 25px;
 }
 
@@ -155,12 +155,12 @@ a {
   border: 3px solid white;
   background-color: white;
   font-size: 32px;
-  color: #2E82F1;
+  color: #2e82f1;
   font-weight: lighter;
   position: relative;
   overflow: hidden;
   box-shadow: gray 5px 5px 10px;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 a:before,
@@ -171,16 +171,16 @@ a:after {
   height: 100%;
   top: -100%;
   left: 0;
-  background: #90EE90;
-  transition: all .35s;
+  background: #90ee90;
+  transition: all 0.35s;
 }
 
 a:before {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 a:after {
-  transition-delay: .2s;
+  transition-delay: 0.2s;
 }
 
 a:hover:before,
